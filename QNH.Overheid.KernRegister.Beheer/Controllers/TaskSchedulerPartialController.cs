@@ -4,10 +4,14 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.IO;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Web.Hosting;
 using System.Web.Mvc;
 using NLog;
 using QNH.Overheid.KernRegister.Organization.Resources;
+using WebGrease;
+using LogManager = NLog.LogManager;
+using Task = Microsoft.Win32.TaskScheduler.Task;
 
 namespace QNH.Overheid.KernRegister.Beheer.Controllers
 {
